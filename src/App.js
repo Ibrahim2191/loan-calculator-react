@@ -6,6 +6,7 @@ import Header from './components/Header';
 import HomePage from './pages/HomePage';
 import NotFoundPage from './pages/NotFoundPage';
 import ErrorPage from './pages/ErrorPage';
+import About from './pages/About';
 import ExchangeRateTable from "./components/ExchangeRateTable";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<About />} />
           <Route path="/exchange-rate" element={<ExchangeRateTable />} />
           <Route path="/error" element={<ErrorPage />} />
           <Route path="*" element={<NotFoundPage />} />

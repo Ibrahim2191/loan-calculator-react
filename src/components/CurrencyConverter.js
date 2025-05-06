@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import useExchangeRates from '../hooks/useExchangeRates';
-import { Form } from 'react-bootstrap'; // Import Bootstrap components
+import { Form } from 'react-bootstrap';
 
 const CurrencyConverter = ({ amountInINR }) => {
   const { rates, loading, error } = useExchangeRates();

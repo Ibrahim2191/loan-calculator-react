@@ -24,7 +24,6 @@ const EmiCalculator = () => {
     setMonths('');
     setReset(true);
 
-    // Clear emi and details on reset
     calculateEmi(0, 0, 0);
   };
 
